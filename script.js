@@ -1,6 +1,4 @@
 const themeToggle = document.querySelector('#theme-toggle');
-const contactForm = document.querySelector('#contact-form');
-const formFeedback = document.querySelector('.form-feedback');
 const filterButtons = document.querySelectorAll('.filter-button');
 const projectCards = document.querySelectorAll('.project-card');
 const sections = document.querySelectorAll('main section[id]');
@@ -43,13 +41,3 @@ window.addEventListener('scroll', () => {
   navLinks.forEach((link) => link.classList.toggle('active', link.getAttribute('href') === `#${currentSection.id}`));
 }, { passive: true });
 
-contactForm.addEventListener('submit', (event) => {
-  event.preventDefault();
-  if (!contactForm.checkValidity()) {
-    formFeedback.textContent = 'Preencha os campos obrigatórios para enviar.';
-    contactForm.reportValidity();
-    return;
-  }
-  formFeedback.textContent = 'Mensagem pronta para ser enviada. Obrigada pelo contato!';
-  contactForm.reset();
-});
