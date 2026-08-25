@@ -1,6 +1,6 @@
-Tentando mostrar meu trabalho ao mundo, um dev junior em construção
+# Tentando mostrar meu trabalho ao mundo, um dev junior em construção
 
-Este é o meu portfólio pessoal: um cantinho da internet onde organizo projetos, experiências e algumas provas de que os bugs também podem virar aprendizado (depois de algumas horas encarando o console).
+**Este é o meu portfólio pessoal:** um cantinho da internet onde organizo projetos, experiências e algumas provas de que os bugs também podem virar aprendizado (depois de algumas horas encarando o console).
 
 ## Sobre o portfólio
 
