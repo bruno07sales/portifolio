@@ -33,6 +33,23 @@ O site apresenta um pouco sobre mim, minhas principais tecnologias e projetos na
 - metadados e fontes otimizados pelo Next.js;
 - suporte à preferência de movimento reduzido do sistema.
 
+## Executando localmente
+
+```bash
+npm install
+npm run dev
+```
+
+Acesse `http://localhost:3000` no navegador.
+
+## Publicação no GitHub Pages
+
+O projeto está configurado para publicação automática em:
+
+[https://bruno07sales.github.io/portifolio/](https://bruno07sales.github.io/portifolio/)
+
+O workflow `.github/workflows/deploy-pages.yml` gera a exportação estática e publica a pasta `out` sempre que houver um push na branch `main`. No GitHub, acesse **Settings → Pages** e selecione **GitHub Actions** em **Source**.
+
 ## Próximos passos
 
 Como todo bom projeto — e todo dev júnior — este portfólio está em constante evolução. Novos projetos, melhorias de acessibilidade, ajustes visuais e ideias, que pareciam simples às duas da manhã, podem aparecer por aqui.
@@ -47,4 +64,3 @@ Quer conversar sobre tecnologia, oportunidades ou por que o CSS centraliza algum
 ---
 
 Feito por Bruno Sales com código, curiosidade e uma quantidade não documentada de café...
-
