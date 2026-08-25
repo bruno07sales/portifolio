@@ -17,7 +17,7 @@ O site apresenta um pouco sobre mim, minhas principais tecnologias e projetos na
 
 ## Projetos em destaque
 
-- [API de gerenciamento de usuários](https://github.com/bruno07sales/users_api) — API construída com Node.js, Express, PostgreSQL e Redis;
+- [API de gerenciamento de usuários](https://bruno07sales.github.io/users_api/) — API construída com Node.js, Express, PostgreSQL e Redis;
 - [Otimização de rotas com grafos](https://bruno07sales.github.io/rotas_grafos/) — aplicação que utiliza A\*, Dijkstra, Haversine, Leaflet.js e OpenStreetMap;
 - [Inclusa](https://sway.cloud.microsoft/nBmxQh5G47ZWrUuR) — proposta de aplicativo de acessibilidade criada para o Desafio Liga Jovem Sebrae;
 - [Pong](https://bruno07sales.github.io/Pong/) — versão web do clássico jogo arcade;

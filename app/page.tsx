@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const projects = [
-  { id: "01", category: "backend", title: "API de gerenciamento de usuários", tech: "JavaScript · Node.js · Express · PostgreSQL · Redis · 2026", href: "https://github.com/bruno07sales/users_api", tone: "bg-accent", art: "api" },
+  { id: "01", category: "backend", title: "API de gerenciamento de usuários", tech: "JavaScript · Node.js · Express · PostgreSQL · Redis · 2026", href: "https://bruno07sales.github.io/users_api/", tone: "bg-accent", art: "api" },
   { id: "02", category: "dados", title: "Otimização de rotas com grafos", tech: "JavaScript (ES6+) · Leaflet.js · OpenStreetMap · A* · Dijkstra · Haversine · 2026", href: "https://bruno07sales.github.io/rotas_grafos/", tone: "bg-yellow", art: "routes" },
   { id: "03", category: "mobile", title: "Inclusa — aplicativo de acessibilidade", tech: "Mobile · Arquitetura · Desafio Liga Jovem Sebrae · 2024", href: "https://sway.cloud.microsoft/nBmxQh5G47ZWrUuR", tone: "bg-[#30342f] text-paper", art: "inclusa" },
 ] as const;
@@ -73,7 +73,7 @@ export default function Home() {
           {filters.map((item) => <button key={item.key} onClick={() => setFilter(item.key)} className={`border-0 bg-transparent pb-[14px] text-xs whitespace-nowrap ${filter === item.key ? "border-b-2 border-accent text-ink" : "text-muted"}`}>{item.label} <sup className="pl-1 text-[9px]">{item.count}</sup></button>)}
         </div>
         <div className="grid grid-cols-2 gap-x-6 gap-y-[60px] max-[760px]:block">
-          {projects.filter((project) => filter === "all" || project.category === filter).map((project, index) => <article key={project.id} className={`reveal min-w-0 max-[760px]:mb-12 ${index === 0 && filter === "all" ? "col-span-full" : ""}`}>
+          {projects.filter((project) => filter === "all" || project.category === filter).map((project, index) => <article key={project.id} className={`min-w-0 max-[760px]:mb-12 ${index === 0 && filter === "all" ? "col-span-full" : ""}`}>
             <div className={`relative grid h-[340px] place-items-center overflow-hidden max-[760px]:h-[300px] ${index === 0 && filter === "all" ? "h-[420px]" : ""} ${project.tone}`}><span className="absolute top-[18px] left-5 text-[11px]">{project.id}</span><ProjectArt type={project.art} /></div>
             <div className="flex justify-between pt-[17px]"><div><h3 className="display mb-[7px] text-lg font-medium">{project.title}</h3><p className="m-0 text-[11px] text-muted">{project.tech}</p></div><a className={arrow} href={project.href} target="_blank" rel="noopener noreferrer" aria-label={`Ver projeto ${project.title}`}>↗</a></div>
           </article>)}
