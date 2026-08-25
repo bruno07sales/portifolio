@@ -6,30 +6,32 @@ Este é o meu portfólio pessoal: um cantinho da internet onde organizo projetos
 
 O site apresenta um pouco sobre mim, minhas principais tecnologias e projetos nas áreas de back-end, dados, automação, mobile e desenvolvimento web. Tudo foi construído com foco em uma navegação simples, visual responsivo e um pouco de personalidade.
 
-## Tecnologias utilizadas
+## Tecnologias
 
-- HTML5 — porque toda grande aventura começa com uma `div`;
-- CSS3 — responsável por convencer o HTML a sair bem na foto;
-- JavaScript — adicionando interação e lembrando que `undefined` também é uma resposta;
-- Git e GitHub — para versionar o código e, ocasionalmente, descobrir quem quebrou tudo (geralmente eu mesmo).
+- [Next.js](https://nextjs.org/) com App Router;
+- [React](https://react.dev/);
+- [TypeScript](https://www.typescriptlang.org/);
+- [Tailwind CSS](https://tailwindcss.com/);
+- ESLint;
+- Git e GitHub.
 
 ## Projetos em destaque
 
-- [API de gerenciamento de usuários](https://github.com/bruno07sales/users_api) — API com Node.js, Express, PostgreSQL e Redis;
-- [Otimização de rotas com grafos](https://bruno07sales.github.io/rotas_grafos/) — rotas usando A*, Dijkstra, Haversine, Leaflet.js e OpenStreetMap;
-- Inclusa — proposta de aplicativo de acessibilidade desenvolvida para o Desafio Liga Jovem Sebrae;
-- [Pong](https://bruno07sales.github.io/Pong/) — o clássico arcade, porque nem só de API vive um dev;
-- [Campo Minado Dengue](https://bruno07sales.github.io/Campo-Minado-Dengue/) — jogo educativo em que clicar sem pensar continua sendo uma estratégia questionável.
+- [API de gerenciamento de usuários](https://github.com/bruno07sales/users_api) — API construída com Node.js, Express, PostgreSQL e Redis;
+- [Otimização de rotas com grafos](https://bruno07sales.github.io/rotas_grafos/) — aplicação que utiliza A*, Dijkstra, Haversine, Leaflet.js e OpenStreetMap;
+- [Inclusa](https://sway.cloud.microsoft/nBmxQh5G47ZWrUuR) — proposta de aplicativo de acessibilidade criada para o Desafio Liga Jovem Sebrae;
+- [Pong](https://bruno07sales.github.io/Pong/) — versão web do clássico jogo arcade;
+- [Campo Minado Dengue](https://bruno07sales.github.io/Campo-Minado-Dengue/) — jogo educativo inspirado em Campo Minado.
 
-## Como executar
+## Funcionalidades
 
-Não precisa instalar dependências, configurar banco de dados ou consultar os astros:
-
-1. Clone este repositório;
-2. Abra o arquivo `index.html` no navegador;
-3. Pronto. Se algo quebrar, agora você já está vivendo a experiência completa de desenvolvimento.
-
-Também é possível executar o projeto com uma extensão de servidor local, como o Live Server, para facilitar o desenvolvimento.
+- Layout responsivo para desktop e dispositivos móveis;
+- alternância entre os temas claro e escuro, com preferência salva no navegador;
+- filtro de projetos por categoria;
+- animações ativadas durante a rolagem;
+- indicação automática da seção ativa no menu;
+- metadados e fontes otimizados pelo Next.js;
+- suporte à preferência de movimento reduzido do sistema.
 
 ## Próximos passos
 
@@ -41,6 +43,8 @@ Quer conversar sobre tecnologia, oportunidades ou por que o CSS centraliza algum
 
 [Fale comigo pelo LinkedIn](https://www.linkedin.com/in/bruno07sales/).
 
+
 ---
 
 Feito por Bruno Sales com código, curiosidade e uma quantidade não documentada de café...
+
